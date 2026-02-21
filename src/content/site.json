@@ -1,0 +1,96 @@
+{
+  "landing": {
+    "meta": {
+      "title": "Senmar Services | Secure Document Destruction",
+      "description": "Secure, compliant and reliable document destruction services for businesses across India."
+    },
+    "header": {
+      "brand": "Senmar Services",
+      "links": [
+        { "label": "Home", "href": "#hero" },
+        { "label": "Clients", "href": "#clients" },
+        { "label": "Testimonials", "href": "#testimonials" },
+        { "label": "About", "href": "#about" },
+        { "label": "Contact", "href": "#contact" }
+      ],
+      "cta": "Get a Quote"
+    },
+    "hero": {
+      "eyebrow": "Trusted Since 1999",
+      "title": "Secure Document Destruction for a Safer Business",
+      "highlight": "Secure",
+      "description": "We help organizations dispose of confidential records through controlled, compliant shredding workflows with full chain-of-custody confidence.",
+      "primaryCta": "Book a Pickup",
+      "secondaryCta": "View Services",
+      "stats": [
+        { "label": "Years of Service", "value": "25+" },
+        { "label": "Bengaluru Founded", "value": "1999" },
+        { "label": "Certificate Issued", "value": "Every Job" }
+      ]
+    },
+    "clients": {
+      "title": "Trusted by security-conscious teams",
+      "logos": [
+        "Asteris Finance",
+        "Crescent Pharma",
+        "Nexa Legal",
+        "MetroCare Hospitals",
+        "Vardhan Tech Park",
+        "Sundaram Logistics",
+        "PrimeLedger",
+        "BlueArc Manufacturing"
+      ]
+    },
+    "testimonials": {
+      "title": "What our clients say",
+      "items": [
+        {
+          "quote": "Their team is punctual, professional, and transparent. The chain-of-custody process gives us complete peace of mind.",
+          "name": "Ritika Menon",
+          "role": "Compliance Manager",
+          "company": "Nexa Legal"
+        },
+        {
+          "quote": "Scheduled shredding with Senmar has removed operational risk from our document disposal workflow.",
+          "name": "Arjun Rao",
+          "role": "Operations Head",
+          "company": "PrimeLedger"
+        },
+        {
+          "quote": "From secure collection to destruction certificate, every step is handled with integrity and precision.",
+          "name": "Megha Kulkarni",
+          "role": "Admin Director",
+          "company": "MetroCare Hospitals"
+        }
+      ]
+    },
+    "about": {
+      "title": "Built on reliability, trust and service excellence",
+      "description": "Senmar Services is a Bengaluru-based secure shredding and destruction partner serving businesses that need dependable information security, controlled handling and compliance-ready documentation.",
+      "points": [
+        "Secure paper and document destruction",
+        "Strict chain-of-custody handling",
+        "Scheduled and on-demand shredding",
+        "E-waste and media disposal support",
+        "Certificate of Destruction with invoicing"
+      ]
+    },
+    "contact": {
+      "title": "Reach out to us",
+      "description": "Tell us your disposal requirement and our team will recommend the right secure shredding plan.",
+      "submitLabel": "Send Enquiry"
+    },
+    "footer": {
+      "company": "Senmar Services",
+      "tagline": "Secure, compliant and customer-first destruction services.",
+      "established": "Established 1999",
+      "address": "#22, 3rd Cross, Chikkabanaswadi, Opp. Sree Tejjan Elite, Bangalore - 560043, Karnataka, India",
+      "phones": [
+        "+91 80 25424198",
+        "+91 9945519205",
+        "+91 9845008205"
+      ],
+      "email": "sales@senmargroup.com"
+    }
+  }
+}
