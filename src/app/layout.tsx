@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins, Roboto } from "next/font/google";
+import { AppParallaxProvider } from "@/components/providers/parallax-provider";
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 
@@ -35,7 +36,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <AppParallaxProvider>{children}</AppParallaxProvider>
         </ThemeProvider>
       </body>
     </html>

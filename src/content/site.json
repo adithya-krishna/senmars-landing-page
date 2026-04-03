@@ -1,88 +1,135 @@
 {
   "landing": {
     "meta": {
-      "title": "Senmar Services | Secure Document Destruction",
-      "description": "Secure, compliant and reliable document destruction services for businesses across India."
+      "title": "Senmar Services | Business Outcomes Through Secure Destruction",
+      "description": "Outcome-led secure destruction programs that reduce compliance risk, protect trust, and simplify operations."
     },
     "header": {
       "brand": "Senmar Services",
       "links": [
-        { "label": "Home", "href": "#hero" },
-        { "label": "Clients", "href": "#clients" },
+        { "label": "Outcomes", "href": "#outcomes" },
+        { "label": "How It Works", "href": "#story" },
+        { "label": "Proof", "href": "#proof" },
         { "label": "Testimonials", "href": "#testimonials" },
-        { "label": "About", "href": "#about" },
         { "label": "Contact", "href": "#contact" }
       ],
-      "cta": "Get a Quote"
+      "cta": "Book a Consultation"
     },
     "hero": {
-      "eyebrow": "Trusted Since 1999",
-      "title": "Secure Document Destruction for a Safer Business",
-      "highlight": "Secure",
-      "description": "We help organizations dispose of confidential records through controlled, compliant shredding workflows with full chain-of-custody confidence.",
-      "primaryCta": "Book a Pickup",
-      "secondaryCta": "View Services",
-      "stats": [
-        { "label": "Years of Service", "value": "25+" },
-        { "label": "Bengaluru Founded", "value": "1999" },
-        { "label": "Certificate Issued", "value": "Every Job" }
+      "eyebrow": "Built for Compliance-Heavy Teams",
+      "title": "Secure destruction programs designed for measurable business outcomes.",
+      "description": "From controlled pickup to certified destruction, Senmar helps enterprises reduce operational risk, protect sensitive information, and maintain audit confidence at scale.",
+      "primaryCta": "Start Your Program",
+      "secondaryCta": "See Our Approach",
+      "media": {
+        "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
+        "caption": "Secure operations designed for modern enterprises"
+      }
+    },
+    "outcomes": {
+      "eyebrow": "Business Outcomes",
+      "title": "What your organization gains with Senmar",
+      "items": [
+        {
+          "title": "Lower compliance exposure",
+          "description": "Standardized handling and complete service documentation reduce policy gaps and audit friction."
+        },
+        {
+          "title": "Stronger trust posture",
+          "description": "Confidential information is controlled from pickup to final destruction with chain-of-custody assurance."
+        },
+        {
+          "title": "Simpler operations",
+          "description": "Scheduled and on-demand programs remove disposal complexity from internal teams."
+        },
+        {
+          "title": "Proof at every cycle",
+          "description": "Every completed service includes a certificate of destruction and clear billing traceability."
+        }
       ]
     },
-    "clients": {
-      "title": "Trusted by security-conscious teams",
-      "logos": [
-        "Asteris Finance",
-        "Crescent Pharma",
-        "Nexa Legal",
-        "MetroCare Hospitals",
-        "Vardhan Tech Park",
-        "Sundaram Logistics",
-        "PrimeLedger",
-        "BlueArc Manufacturing"
+    "storyBands": [
+      {
+        "id": "pickup",
+        "eyebrow": "Step 01",
+        "title": "Secure pickup with documented custody",
+        "description": "Collection workflows are designed to preserve control from the first handoff. Every pickup follows strict operating procedures with accountability checkpoints.",
+        "mediaType": "image",
+        "mediaUrl": "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=1600&q=80",
+        "mediaPoster": "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=1600&q=80",
+        "parallaxSpeed": 9
+      },
+      {
+        "id": "destruction",
+        "eyebrow": "Step 02",
+        "title": "Controlled destruction and verification",
+        "description": "Material is processed in controlled environments under defined standards so organizations can close compliance loops confidently.",
+        "mediaType": "video",
+        "mediaUrl": "https://cdn.pixabay.com/video/2021/10/29/93947-641112745_large.mp4",
+        "mediaPoster": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&w=1600&q=80",
+        "parallaxSpeed": -10
+      },
+      {
+        "id": "reporting",
+        "eyebrow": "Step 03",
+        "title": "Reporting that supports audit readiness",
+        "description": "Service records and destruction certificates are delivered in a consistent format so teams can respond quickly to internal and external review needs.",
+        "mediaType": "video",
+        "mediaUrl": "https://cdn.pixabay.com/video/2017/08/17/11474-230613429_large.mp4",
+        "mediaPoster": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=80",
+        "parallaxSpeed": 8
+      },
+      {
+        "id": "security-audit",
+        "eyebrow": "Step 04",
+        "title": "Program visibility for leadership and audit teams",
+        "description": "Operational summaries and destruction records give stakeholders a clear view of compliance throughput and service accountability.",
+        "mediaType": "video",
+        "mediaUrl": "https://cdn.pixabay.com/video/2022/10/13/134709-761056543_large.mp4",
+        "mediaPoster": "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&w=1600&q=80",
+        "parallaxSpeed": -9
+      }
+    ],
+    "proof": {
+      "title": "Outcome metrics organizations care about",
+      "stats": [
+        { "label": "Years Serving Regulated Teams", "value": "25+" },
+        { "label": "Destruction Certificate Issuance", "value": "Every Service" },
+        { "label": "Program Flexibility", "value": "Scheduled + On-Demand" },
+        { "label": "Service Coverage", "value": "Enterprise Workflows" }
       ]
     },
     "testimonials": {
       "title": "What our clients say",
       "items": [
         {
-          "quote": "Their team is punctual, professional, and transparent. The chain-of-custody process gives us complete peace of mind.",
+          "quote": "Senmar helped us move from ad-hoc disposal to a controlled program with clear evidence trails. It significantly improved compliance confidence.",
           "name": "Ritika Menon",
           "role": "Compliance Manager",
           "company": "Nexa Legal"
         },
         {
-          "quote": "Scheduled shredding with Senmar has removed operational risk from our document disposal workflow.",
+          "quote": "Their operating discipline reduced burden on our admin and operations teams while strengthening data handling assurance.",
           "name": "Arjun Rao",
           "role": "Operations Head",
           "company": "PrimeLedger"
         },
         {
-          "quote": "From secure collection to destruction certificate, every step is handled with integrity and precision.",
+          "quote": "The pickup-to-certificate process is dependable and transparent. We now have better audit readiness with less effort.",
           "name": "Megha Kulkarni",
           "role": "Admin Director",
           "company": "MetroCare Hospitals"
         }
       ]
     },
-    "about": {
-      "title": "Built on reliability, trust and service excellence",
-      "description": "Senmar Services is a Bengaluru-based secure shredding and destruction partner serving businesses that need dependable information security, controlled handling and compliance-ready documentation.",
-      "points": [
-        "Secure paper and document destruction",
-        "Strict chain-of-custody handling",
-        "Scheduled and on-demand shredding",
-        "E-waste and media disposal support",
-        "Certificate of Destruction with invoicing"
-      ]
-    },
     "contact": {
-      "title": "Reach out to us",
-      "description": "Tell us your disposal requirement and our team will recommend the right secure shredding plan.",
-      "submitLabel": "Send Enquiry"
+      "title": "Build a secure destruction program for your team",
+      "description": "Tell us your document and media disposal needs. We will propose a secure, compliant service model for your organization.",
+      "submitLabel": "Request Proposal"
     },
     "footer": {
       "company": "Senmar Services",
-      "tagline": "Secure, compliant and customer-first destruction services.",
+      "tagline": "Secure destruction with compliance-first operating discipline.",
       "established": "Established 1999",
       "address": "#22, 3rd Cross, Chikkabanaswadi, Opp. Sree Tejjan Elite, Bangalore - 560043, Karnataka, India",
       "phones": [

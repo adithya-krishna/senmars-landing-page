@@ -32,10 +32,10 @@ export function BlurFade({
   children,
   className,
   variant,
-  duration = 0.4,
+  duration = 0.75,
   delay = 0,
-  offset = 6,
-  direction = "down",
+  offset = 40,
+  direction = "up",
   inView = false,
   inViewMargin = "-50px",
   blur = "6px",
@@ -47,7 +47,7 @@ export function BlurFade({
   const defaultVariants: Variants = {
     hidden: {
       [direction === "left" || direction === "right" ? "x" : "y"]:
-        direction === "right" || direction === "down" ? -offset : offset,
+        direction === "up" || direction === "right" ? offset : -offset,
       opacity: 0,
       filter: `blur(${blur})`,
     },
@@ -69,7 +69,7 @@ export function BlurFade({
         transition={{
           delay: 0.04 + delay,
           duration,
-          ease: "easeOut",
+          ease: [0.42, 0, 0.58, 1],
         }}
         className={className}
         {...props}

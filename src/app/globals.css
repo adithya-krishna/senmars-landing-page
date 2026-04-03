@@ -101,6 +101,18 @@ html {
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --brand-strong: #fbbf24;
+  --brand-accent: #f59e0b;
+  --brand-soft: #fef3c7;
+  --brand-contrast: #0ea5e9;
+  --brand-success: #10b981;
+  --surface-canvas: radial-gradient(circle at 12% 8%, #fff7e6 0%, #fafafa 34%, #ffffff 100%);
+  --surface-soft: #fafaf9;
+  --surface-strong: #ffffff;
+  --surface-border: #e4e4e7;
+  --surface-glass: rgba(255, 255, 255, 0.78);
+  --surface-inverse: #09090b;
+  --surface-inverse-foreground: #fafafa;
 }
 
 .dark {
@@ -135,6 +147,18 @@ html {
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+  --brand-strong: #fbbf24;
+  --brand-accent: #f59e0b;
+  --brand-soft: #78350f;
+  --brand-contrast: #38bdf8;
+  --brand-success: #34d399;
+  --surface-canvas: radial-gradient(circle at 12% 8%, #1f1b0f 0%, #09090b 34%, #0f172a 100%);
+  --surface-soft: #18181b;
+  --surface-strong: #09090b;
+  --surface-border: #27272a;
+  --surface-glass: rgba(9, 9, 11, 0.74);
+  --surface-inverse: #000000;
+  --surface-inverse-foreground: #fafafa;
 }
 
 @layer base {
@@ -148,6 +172,7 @@ html {
     font-family: var(--font-roboto), sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: var(--surface-canvas);
   }
 
   h1,
@@ -157,6 +182,40 @@ html {
   h5,
   h6 {
     font-family: var(--font-poppins), sans-serif;
+  }
+}
+
+@layer utilities {
+  .hero-radial {
+    background:
+      radial-gradient(circle at 80% 10%, color-mix(in oklab, var(--brand-strong) 24%, transparent) 0%, transparent 46%),
+      radial-gradient(circle at 10% 74%, color-mix(in oklab, var(--brand-contrast) 18%, transparent) 0%, transparent 42%);
+  }
+
+  .section-mesh {
+    background:
+      linear-gradient(120deg, color-mix(in oklab, var(--surface-soft) 78%, transparent), transparent 62%),
+      radial-gradient(circle at 88% 85%, color-mix(in oklab, var(--brand-success) 12%, transparent) 0%, transparent 50%);
+  }
+
+  .hero-title {
+    font-size: clamp(2.1rem, 4.7vw, 4.8rem);
+    line-height: 1.02;
+    letter-spacing: -0.035em;
+    max-width: 13ch;
+    text-wrap: balance;
+  }
+
+  .section-title {
+    font-size: clamp(1.8rem, 3vw, 3rem);
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    text-wrap: balance;
+  }
+
+  .copy-lg {
+    font-size: clamp(1.02rem, 1.45vw, 1.24rem);
+    line-height: 1.65;
   }
 }
 
